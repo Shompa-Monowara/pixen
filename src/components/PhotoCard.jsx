@@ -5,7 +5,7 @@ import { BiDownload } from "react-icons/bi";
 
 
 const PhotoCard = ({photo}) => {
-    console.log(photo)
+    
     return (
         
             <Card className="border rounded-xl">
