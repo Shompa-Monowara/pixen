@@ -55,7 +55,7 @@ const Navbar = () => {
             <div className="flex gap-3">
                  <Avatar size="sm">
         <Avatar.Image alt="John Doe" 
-        src={user.image} 
+        src={user?.image} 
         referrerPolicy="no-referrer"
         />
         <Avatar.Fallback>{user?.name.charAt[0]}</Avatar.Fallback>
